@@ -1,0 +1,52 @@
+#header{
+    background-color: rgb(15, 12, 12);
+    color: red;
+}
+#userchoice{
+    border: 2px solid maroon;
+    height: 120px;
+}
+#usercol{
+    border: 2px solid maroon;
+    height: 250px;
+}
+#choice{
+    border: 2px solid maroon;
+    height: 80px;
+}
+#choice > button {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    height: 37px;
+    width: 37px;
+    text-align: center;
+}
+#scoreboard{
+    border: 2px solid  maroon;
+    height: 210px;
+}
+#computerchoice{
+    border: 2px solid maroon;
+    height: 100px;
+}
+#commentary{
+    border:2px solid black;
+    height: 75px;
+  text-align:center;
+}
+#achievement{
+    color: yellow;
+    animation: change 1s linear infinite;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+}
+
+@keyframes change{
+    0%{color: green;}
+    100%{color: orange;}
+}
